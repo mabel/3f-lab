@@ -57,3 +57,23 @@ typings/
 # dotenv environment variables file
 .env
 
+.cache/
+.config/configstore/
+.config/yarn/
+.gnupg/
+.local/
+.yarn/
+
+.bashrc
+.gitconfig
+.profile
+.viminfo
+.bash_history
+.yarnrc
+
+node_modules
+yarn.lock
+_projects
+_reusable
+_tmp
+_backup

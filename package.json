@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-pug": "^3.3.0",
+        "gulp-stylus": "^2.6.0",
+        "gulp-uglify": "^3.0.0",
+        "jstransformer-coffee-script": "^1.1.0",
+        "jstransformer-markdown-it": "^2.0.0"
+    },
+    "scripts":{
+        "postinit": "for d in '_projects' '_reusable' ; do mkdir $d ; done"
+    }
+}
