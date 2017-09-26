@@ -9,6 +9,6 @@
         "jstransformer-markdown-it": "^2.0.0"
     },
     "scripts":{
-        "postinit": "for d in '_projects' '_reusable' ; do mkdir $d ; done"
+        "mkdirs": "for d in '_projects' '_reusable' ; do mkdir ../$d ; done; mv .config ..; mv .vim* ..; mv install-yarn.sh ..; mv package.json ..; cd ../; rm -R -f 3f-lab; ./install-yarn.sh; .yarn/bin/yarn"
     }
 }
