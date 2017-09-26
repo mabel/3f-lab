@@ -64,7 +64,6 @@ typings/
 .local/
 .yarn/
 
-.bashrc
 .gitconfig
 .profile
 .viminfo
