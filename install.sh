@@ -1,9 +1,8 @@
 cd ..
-mv 3f-lab/.bashrc .
-mv 3f-lab/.vimrc .
-mv 3f-lab/package.json .
-tar xvfz 3f-lab/lab.tgz
+mv clide/.bashrc .
+mv clide/.vimrc .
+mv clide/package.json .
+tar xvfz clide/lab.tgz
 curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --nightly
 ~/.yarn/bin/yarn
-#rm -f -R 3f-lab
 
